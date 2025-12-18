@@ -1,4 +1,4 @@
-package com.example
+package com.thathollowdude
 
 import com.lagradost.cloudstream3.MainAPI
 import com.lagradost.cloudstream3.SearchResponse

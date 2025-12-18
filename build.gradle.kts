@@ -37,11 +37,11 @@ subprojects {
 
     cloudstream {
         setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/ThatHollowDude/TestPlugins")
-        authors = listOf("ThatHollowDude")
+        authors = listOf("thathollowdude")
     }
 
     android {
-        namespace = "com.ThatHollowDude"
+        namespace = "com.thathollowdude"
 
         defaultConfig {
             minSdk = 21
