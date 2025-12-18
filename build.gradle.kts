@@ -44,7 +44,7 @@ subprojects {
         namespace = "com.thathollowdude"
 
         defaultConfig {
-            minSdk = 17
+            minSdk = 21
             compileSdkVersion(35)
             targetSdk = 35
 

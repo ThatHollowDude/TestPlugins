@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.konan.properties.Properties
-
 version = 27
 
 android {
@@ -7,11 +5,6 @@ android {
         buildConfig = true
     }
 
-    defaultConfig {
-        val properties = Properties()
-        properties.load(project.rootProject.file("local.properties").inputStream())
-        buildConfigField("String", "WASMAPI", "\"${properties.getProperty("WASMAPI")}\"")
-    }
 }
 dependencies {
     implementation("com.google.firebase:firebase-crashlytics-buildtools:3.0.6")
