@@ -32,7 +32,7 @@ cloudstream {
 
 android {
     buildFeatures {
-        buildConfig = true
+        buildConfig = false
         viewBinding = true
     }
 }
