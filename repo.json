@@ -1,0 +1,9 @@
+{
+    "name": "ThatHollowDude's Repo",
+    "iconUrl": "hhttps://raidingtheglobe.com/images/com_osgallery/gal-67/original/tr2013-wallpaper08DA9936EC-BEDB-2BCA-6309-7A3F99C2D052.jpg",
+    "description": "ThatHollowDude's Repository",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "htttps://raw.githubusercontent.com/ThatHollowDude/TestPlugins/builds/plugins.json"
+    ]
+}
