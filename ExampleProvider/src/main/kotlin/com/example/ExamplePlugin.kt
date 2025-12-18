@@ -14,12 +14,5 @@ class ExamplePlugin: Plugin() {
 
         // All providers should be added in this manner
         registerMainAPI(ExampleProvider())
-
-        openSettings = {
-            val frag = BlankFragment(this)
-            activity?.let {
-                frag.show(it.supportFragmentManager, "Frag")
-            }
-        }
     }
 }
