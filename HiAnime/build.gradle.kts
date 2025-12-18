@@ -4,7 +4,7 @@ version = 27
 
 android {
     buildFeatures {
-        buildConfig = false
+        buildConfig = true
     }
 
     defaultConfig {
